@@ -12,6 +12,32 @@
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background-color: $bg-primary;
+    position: relative;
+}
+
+.demo-credentials-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: $gradient-primary;
+    color: $text-white;
+    text-align: center;
+    padding: $space-2 $space-4;
+    font-size: $font-size-sm;
+    z-index: 10;
+
+    p {
+        margin: 0;
+    }
+
+    code {
+        background: rgba(255, 255, 255, 0.2);
+        padding: $space-1 $space-2;
+        border-radius: $radius-base;
+        font-family: monospace;
+        margin: 0 $space-1;
+    }
 }
 
 .auth_form_side,

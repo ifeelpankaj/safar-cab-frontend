@@ -130,6 +130,13 @@ const Auth = () => {
     return (
         <Fragment>
             <main className="auth_container">
+                {/* Demo Credentials Banner */}
+                <div className="demo-credentials-banner">
+                    <p>
+                        <strong>Demo Credentials:</strong> Passenger: <code>passenger@gmail.com</code> | Driver: <code>driver@gmail.com</code> |
+                        Password: <code>000000</code>
+                    </p>
+                </div>
                 <div className="auth_form_side">
                     <h1>{isLogin ? 'Sign in' : 'Create Account'}</h1>
                     <p className="divider">Use your {isLogin ? 'credential' : 'email for registration'}</p>
